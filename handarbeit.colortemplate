@@ -83,16 +83,16 @@ Comment        base6    none   italic
 Constant       green    none   bold
 Error          base0    red
 Identifier     lavender none
-PreProc        red      none
+PreProc        blue     none
 Special        green    none
-Statement      blue     none
+Statement      yellow   none
 Type           pink     none
 StorageClass   mint     none
 
 Delimiter      base7    none
 Directory      teal     none
 Function       red      none
-Number         orange   none
+Number         purple   none
 SpecialComment base7    none  italic
 String         lime     none
 Title          base8    none  bold
