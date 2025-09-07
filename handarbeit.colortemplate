@@ -74,10 +74,10 @@ IncSearch      base0    orange
 Search         base0    yellow
 Visual         none     base3
 
-DiffAdd        lime     base3
-DiffChange     none     base3
-DiffDelete     red      base3
-DiffText       orange   base4
+DiffAdd        lime     base2
+DiffChange     none     base2
+DiffDelete     red      base2
+DiffText       orange   base0
 
 Comment        base6    none   italic
 Constant       green    none   bold
