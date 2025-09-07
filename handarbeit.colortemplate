@@ -17,7 +17,7 @@ Color: base7    #949494 ~
 Color: base8    #d0d0d0 ~
 Color: base9    #eeeeee ~
 
-Color: red      #C9503F ~
+Color: red      #DD352C ~
 Color: blue     #2f77a5 ~
 Color: pink     #c87e74 ~
 Color: yellow   #e5a100 ~
@@ -37,7 +37,7 @@ Term colors: base6 pink     lime  lemon
 Term colors: azure lavender mint  base9
 
 Normal         base9    base0
-Cursor         base1    base9
+Cursor         base0    base9
 None           none     none
 
 CursorLineNr   base8    base3
@@ -54,7 +54,7 @@ PmenuSbar      base0    base0
 PmenuSel       base9    base4
 PmenuThumb     base5    base5
 
-ErrorMsg       base1    red
+ErrorMsg       base0    red
 ModeMsg        green    none   bold
 MoreMsg        lemon    none
 Question       lemon    none
@@ -64,14 +64,14 @@ ColorColumn    none     base0
 CursorColumn   none     base2
 CursorLine     none     base2
 
-QuickFixLine   base1    lemon
+QuickFixLine   base0    lemon
 StatusLine     base8    base4
 StatusLineNC   base7    base3
 VertSplit      base3    base3
 WildMenu       base9    base6
 
-IncSearch      base1    orange
-Search         base1    yellow
+IncSearch      base0    orange
+Search         base0    yellow
 Visual         none     base3
 
 DiffAdd        lime     base3
@@ -80,22 +80,23 @@ DiffDelete     red      base3
 DiffText       orange   base4
 
 Comment        base6    none   italic
-Constant       lemon    none   bold
-Error          base1    red
+Constant       green    none   bold
+Error          base0    red
 Identifier     lavender none
 PreProc        red      none
-Special        purple   none
+Special        green    none
 Statement      blue     none
-Type           purple   none
+Type           pink     none
+StorageClass   mint     none
 
 Delimiter      base7    none
 Directory      teal     none
-Function       lavender none
+Function       red      none
 Number         orange   none
 SpecialComment base7    none  italic
 String         lime     none
 Title          base8    none  bold
-Todo           base9    none
+Todo           red      none
 Underlined     azure    none  underline
 
 SpellBad       none     none  undercurl
@@ -144,7 +145,6 @@ Include            -> PreProc
 Macro              -> PreProc
 PreCondit          -> PreProc
 
-StorageClass       -> Type
 Structure          -> Type
 Typedef            -> Type
 
